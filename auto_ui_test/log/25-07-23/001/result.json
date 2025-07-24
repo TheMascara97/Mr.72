@@ -1,0 +1,50 @@
+{
+	"name": "",
+	"platform": "windows",
+	"testType": "func",
+	"testTool": "ztf",
+	"buildTool": "",
+	"testCommand": "",
+	"workspaceType": "",
+	"workspacePath": "F:\\code\\auto_ui_test",
+	"submitResult": false,
+	"execBy": "case",
+	"zentaoData": "",
+	"buildUrl": "",
+	"log": "2025-07-23 18:06:49.863\texec/script.go:35\t开始执行F:\\code\\auto_ui_test\\product3\\4252.py于2025-07-23 18:06:49。\n2025-07-23 18:06:50.256\texec/script.go:64\t结束执行F:\\code\\auto_ui_test\\product3\\4252.py于2025-07-23 18:06:50。\n2025-07-23 18:06:50.390\texec/report-ztf.go:36\t------------------------------------------------------------------------------------------------------------------------\n失败用例详情\n用例1: [F:\\code\\auto_ui_test\\product3\\4252.py] [5G guest_WIFI_修改局域网子网掩码]\n步骤11361: 失败 [连接guest_WIFI]\n[期望]  guest_WIFI正常连接\n[实际]  \n\n------------------------------------------------------------------------------------------------------------------------",
+	"pass": 0,
+	"fail": 1,
+	"skip": 0,
+	"total": 1,
+	"startTime": 1753265209,
+	"endTime": 1753265210,
+	"duration": 1,
+	"funcResult": [
+		{
+			"id": 4252,
+			"workspaceId": 0,
+			"seq": "",
+			"key": "fb0e50cebc997914f7e15461cfab1f4a",
+			"productId": 4252,
+			"path": "F:\\code\\auto_ui_test\\product3\\4252.py",
+			"relativePath": "F:\\code\\auto_ui_test\\product3\\4252.py",
+			"status": "fail",
+			"title": "5G guest_WIFI_修改局域网子网掩码",
+			"steps": [
+				{
+					"id": "11361",
+					"name": "连接guest_WIFI",
+					"status": "fail",
+					"checkPoints": [
+						{
+							"numb": 1,
+							"expect": "guest_WIFI正常连接",
+							"actual": "",
+							"status": "fail"
+						}
+					]
+				}
+			]
+		}
+	]
+}
